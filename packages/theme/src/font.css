@@ -1,0 +1,12 @@
+/* 字体文件由宿主应用按自身部署路径注册，主题包只声明字体族。 */
+
+/* 全局应用：正文与标题统一使用阿里巴巴普惠体 3.0 */
+html,
+body {
+  font-family: var(--mg-font-family);
+}
+
+/* MG 组件统一继承品牌字体 */
+[class*='mg-'] {
+  font-family: var(--mg-font-family);
+}

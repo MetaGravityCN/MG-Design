@@ -1,0 +1,20 @@
+/* Design Tokens - Spacing */
+:root {
+  /* Base Unit */
+  --mg-spacing-base: 4px;
+
+  /* Spacing Scale */
+  --mg-spacing-extra-small: 4px;
+  --mg-spacing-small: 8px;
+  --mg-spacing-medium: 16px;
+  --mg-spacing-large: 24px;
+  --mg-spacing-extra-large: 32px;
+
+  /* Component Spacing */
+  --mg-padding-base: 16px;
+  --mg-padding-small: 12px;
+  --mg-padding-large: 20px;
+  --mg-margin-base: 16px;
+  --mg-margin-small: 8px;
+  --mg-margin-large: 24px;
+}

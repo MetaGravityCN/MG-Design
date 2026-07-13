@@ -1,0 +1,3 @@
+<template><div v-bind="$attrs" class="mg-option-group" role="group" :aria-label="label"><div v-if="label || $slots.label" class="mg-option-group__title"><slot name="label">{{ label }}</slot></div><div class="mg-option-group__options"><slot /></div></div></template>
+<script setup lang="ts">defineOptions({ name: 'MgOptionGroup', inheritAttrs: false }); defineProps<{ label?: string; disabled?: boolean }>()</script>
+<style scoped>.mg-option-group__title { padding: 6px 12px 3px; color: var(--mg-color-text-secondary, #6f7686); font-size: 12px; }.mg-option-group + .mg-option-group { border-top: 1px solid var(--mg-color-border-light, #ebecef); }</style>

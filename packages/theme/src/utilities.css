@@ -1,0 +1,70 @@
+/* MG Design - Admin System Utility Classes
+ * 通用后台系统辅助样式，基于 Design Tokens 构建
+ */
+
+/* ==================== Card ==================== */
+.mg-card {
+  background: var(--mg-color-white);
+  border: 1px solid var(--mg-color-border);
+  border-radius: var(--mg-border-radius-base);
+  padding: var(--mg-padding-large);
+}
+
+.mg-card + .mg-card {
+  margin-top: var(--mg-margin-base);
+}
+
+/* ==================== Page Title ==================== */
+.mg-page-title {
+  font-size: var(--mg-font-size-extra-large);
+  font-weight: var(--mg-font-weight-primary);
+  color: var(--mg-color-text-primary);
+  line-height: 1.4;
+  margin: 0 0 16px 0;
+}
+
+/* ==================== Table Toolbar ==================== */
+.mg-table-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--mg-margin-base);
+}
+
+/* ==================== Search Form ==================== */
+.mg-search-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--mg-spacing-small);
+  margin-bottom: var(--mg-margin-base);
+  padding: var(--mg-padding-base);
+  background: var(--mg-color-white);
+  border: 1px solid var(--mg-color-border);
+  border-radius: var(--mg-border-radius-base);
+}
+
+/* ==================== Status Colors ==================== */
+.mg-status-success {
+  color: var(--mg-color-success);
+}
+
+.mg-status-warning {
+  color: var(--mg-color-warning);
+}
+
+.mg-status-error {
+  color: var(--mg-color-danger);
+}
+
+.mg-status-disabled {
+  color: var(--mg-color-text-secondary);
+}
+
+/* ==================== Sidebar ==================== */
+.mg-sidebar {
+  background: var(--mg-color-white);
+  color: var(--mg-color-text-primary);
+  transition: width 0.3s;
+  flex-shrink: 0;
+  overflow: hidden;
+}

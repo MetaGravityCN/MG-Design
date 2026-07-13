@@ -1,0 +1,42 @@
+{
+  "name": "@mg-design/icons",
+  "version": "0.1.0",
+  "description": "MG Design System - Icons",
+  "author": "MG Design",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mg-design/mg-design.git",
+    "directory": "packages/icons"
+  },
+  "bugs": {
+    "url": "https://github.com/mg-design/mg-design/issues"
+  },
+  "keywords": [
+    "mg-design",
+    "icons",
+    "vue3"
+  ],
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "vite build"
+  },
+  "peerDependencies": {
+    "vue": "^3.5.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

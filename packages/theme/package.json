@@ -1,0 +1,33 @@
+{
+  "name": "@mg-design/theme",
+  "version": "0.1.0",
+  "description": "MG Design System - Theme and Design Tokens",
+  "author": "MG Design",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mg-design/mg-design.git",
+    "directory": "packages/theme"
+  },
+  "bugs": {
+    "url": "https://github.com/mg-design/mg-design/issues"
+  },
+  "keywords": [
+    "mg-design",
+    "theme",
+    "design-tokens",
+    "css"
+  ],
+  "main": "./dist/index.css",
+  "module": "./dist/index.css",
+  "style": "./dist/index.css",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "node scripts/build.mjs"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

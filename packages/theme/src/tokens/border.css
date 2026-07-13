@@ -1,0 +1,16 @@
+/* Design Tokens - Border & Shadow */
+:root {
+  --mg-border-radius-base: 3px;
+  --mg-border-radius-small: 2px;
+  --mg-border-radius-large: 6px;
+  --mg-border-radius-round: 20px;
+  --mg-border-radius-circle: 50%;
+  --mg-border-width-base: 1px;
+  --mg-border-width-thick: 2px;
+  --mg-box-shadow-base: 0 1px 4px rgba(0, 0, 0, 0.06), 0 0 1px rgba(0, 0, 0, 0.04);
+  --mg-box-shadow-light: 0 2px 8px rgba(0, 0, 0, 0.04);
+  --mg-box-shadow-dark: 0 4px 16px rgba(0, 0, 0, 0.08);
+  --mg-box-shadow-hover: 0 8px 24px rgba(0, 0, 0, 0.06);
+  --mg-focus-ring: 0 0 0 2px var(--mg-color-primary-light-8, #d9e1ff);
+  --mg-focus-ring-danger: 0 0 0 2px var(--mg-color-danger-light-8, #fff0ed);
+}

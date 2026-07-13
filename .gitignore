@@ -1,0 +1,58 @@
+# Dependencies and package-manager caches
+node_modules/
+.pnpm-store/
+
+# Build outputs and caches
+dist/
+coverage/
+.vite/
+.cache/
+.nyc_output/
+*.tsbuildinfo
+
+# Local documentation and interactive playground (not published)
+docs/
+playground/
+
+# Logs and local test artifacts
+*.log
+*.lcov
+debug_*.png
+docs_*.png
+playground_*.png
+test_*.png
+assets/screenshots/
+
+# Environment and local databases
+.env
+.env.local
+.env.*.local
+!.env.example
+!.env.template
+*.db
+*.sqlite
+*.sqlite-journal
+
+# Editor, OS and assistant-local state
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.qoder/
+.agents/
+.plans/
+.deploy/
+.DS_Store
+Thumbs.db
+*.swp
+
+# Temporary local notes and scripts
+CONTEXT.md
+fix_garbled.py
+test-monitor-logs.js
+test-report-monitor-logs.json
+TEST_REPORT_MONITOR_LOGS.md
+
+# Package manager policy: pnpm is authoritative
+package-lock.json
+npm-shrinkwrap.json
+yarn.lock

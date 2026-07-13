@@ -1,0 +1,53 @@
+{
+  "name": "@mg-design/components",
+  "version": "0.1.0",
+  "description": "MG Design System - Common Components",
+  "author": "MG Design",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mg-design/mg-design.git",
+    "directory": "packages/components"
+  },
+  "bugs": {
+    "url": "https://github.com/mg-design/mg-design/issues"
+  },
+  "keywords": [
+    "mg-design",
+    "vue3",
+    "components",
+    "design-system",
+    "admin"
+  ],
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    },
+    "./resolver": {
+      "types": "./dist/resolver.d.ts",
+      "import": "./dist/resolver.mjs",
+      "require": "./dist/resolver.cjs"
+    },
+    "./dist/components.css": "./dist/components.css"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "vite build && vue-tsc --emitDeclarationOnly"
+  },
+  "peerDependencies": {
+    "vue": "^3.5.0"
+  },
+  "dependencies": {
+    "@mg-design/primitives": "workspace:*"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
