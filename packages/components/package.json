@@ -1,6 +1,6 @@
 {
   "name": "@metagravity_cn/mg-design",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "MG Design System - Common Components",
   "author": "MG Design",
   "license": "MIT",
@@ -12,7 +12,7 @@
   "bugs": {
     "url": "https://github.com/MetaGravityCN/MG-Design/issues"
   },
-  "homepage": "https://github.com/MetaGravityCN/MG-Design/tree/main/packages/components#readme",
+  "homepage": "https://design.meta-gravity.com",
   "keywords": [
     "mg-design",
     "vue3",

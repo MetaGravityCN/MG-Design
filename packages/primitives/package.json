@@ -1,6 +1,6 @@
 {
   "name": "@metagravity_cn/primitives",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Framework-independent interaction primitives for MG Design",
   "author": "MG Design",
   "license": "MIT",

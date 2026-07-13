@@ -1,6 +1,6 @@
 {
   "name": "mg-design",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "private": true,
   "description": "MG Design System - An independent Vue 3 component library published under @metagravity_cn",
   "license": "MIT",
@@ -8,7 +8,7 @@
     "type": "git",
     "url": "https://github.com/MetaGravityCN/MG-Design.git"
   },
-  "homepage": "https://github.com/MetaGravityCN/MG-Design#readme",
+  "homepage": "https://design.meta-gravity.com",
   "bugs": {
     "url": "https://github.com/MetaGravityCN/MG-Design/issues"
   },

@@ -1,6 +1,6 @@
 {
   "name": "@metagravity_cn/business",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "private": true,
   "description": "MG Design System - Business Components",
   "main": "./dist/index.cjs",
