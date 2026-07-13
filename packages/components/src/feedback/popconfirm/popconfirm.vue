@@ -43,7 +43,7 @@
 
 <script setup lang="ts">
 import { computed, getCurrentInstance, ref, watch, type Component } from 'vue'
-import { useStableId, type FloatingPlacement } from '@mg-design/primitives'
+import { useStableId, type FloatingPlacement } from '@metagravity_cn/primitives'
 import { MgPopover } from '../popover'
 
 export type MgPopconfirmButtonType = 'default' | 'primary' | 'success' | 'warning' | 'danger' | 'info' | 'text'

@@ -56,7 +56,7 @@
 </template>
 <script setup lang="ts">
 import { computed, inject, onBeforeUnmount, onMounted, ref, watch } from 'vue'
-import { formContextKey, formItemContextKey } from '@mg-design/primitives'
+import { formContextKey, formItemContextKey } from '@metagravity_cn/primitives'
 defineOptions({ name: 'MgColorPicker', inheritAttrs: false })
 const props = withDefaults(
   defineProps<{

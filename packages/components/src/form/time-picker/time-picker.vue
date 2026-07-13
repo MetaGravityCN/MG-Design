@@ -45,7 +45,7 @@
 </template>
 <script setup lang="ts">
 import { computed, inject, ref } from 'vue'
-import { formContextKey, formItemContextKey } from '@mg-design/primitives'
+import { formContextKey, formItemContextKey } from '@metagravity_cn/primitives'
 type TimeValue = string | Date
 defineOptions({ name: 'MgTimePicker', inheritAttrs: false })
 const props = withDefaults(

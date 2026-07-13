@@ -1,5 +1,5 @@
 {
-  "name": "@mg-design/components",
+  "name": "@metagravity_cn/mg-design",
   "version": "0.1.0",
   "description": "MG Design System - Common Components",
   "author": "MG Design",
@@ -34,7 +34,8 @@
       "import": "./dist/resolver.mjs",
       "require": "./dist/resolver.cjs"
     },
-    "./dist/components.css": "./dist/components.css"
+    "./style.css": "./dist/mg-design.css",
+    "./dist/mg-design.css": "./dist/mg-design.css"
   },
   "files": [
     "dist"
@@ -50,7 +51,7 @@
     "vue": "^3.5.0"
   },
   "dependencies": {
-    "@mg-design/primitives": "workspace:*"
+    "@metagravity_cn/primitives": "workspace:*"
   },
   "publishConfig": {
     "access": "public"

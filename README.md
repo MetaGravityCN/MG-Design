@@ -6,12 +6,12 @@ MG Design is an independent Vue 3 design system and component library for enterp
 
 | Package | Purpose |
 | --- | --- |
-| `@mg-design/components` | Vue 3 components and directives |
-| `@mg-design/theme` | Design tokens and shared theme styles |
-| `@mg-design/icons` | Icon assets and Vue icon components |
-| `@mg-design/primitives` | Framework-level behavior primitives |
-| `@mg-design/utils` | Shared utilities |
-| `@mg-design/business` | Higher-level business components |
+| `@metagravity_cn/mg-design` | Vue 3 components and directives |
+| `@metagravity_cn/theme` | Design tokens and shared theme styles |
+| `@metagravity_cn/icons` | Icon assets and Vue icon components |
+| `@metagravity_cn/primitives` | Framework-level behavior primitives |
+| `@metagravity_cn/utils` | Shared utilities |
+| `@metagravity_cn/business` | Higher-level business components |
 
 ## Requirements
 
@@ -37,8 +37,9 @@ pnpm check:element-boundary
 
 ```ts
 import { createApp } from 'vue'
-import MgDesign from '@mg-design/components'
-import '@mg-design/theme'
+import MgDesign from '@metagravity_cn/mg-design'
+import '@metagravity_cn/theme'
+import '@metagravity_cn/mg-design/style.css'
 
 createApp(App).use(MgDesign).mount('#app')
 ```
@@ -46,7 +47,7 @@ createApp(App).use(MgDesign).mount('#app')
 Components can also be imported individually:
 
 ```ts
-import { MgButton, MgInput, vLoading } from '@mg-design/components'
+import { MgButton, MgInput, vLoading } from '@metagravity_cn/mg-design'
 ```
 
 ## Repository layout

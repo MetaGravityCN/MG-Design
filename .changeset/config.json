@@ -7,5 +7,5 @@
   "access": "public",
   "baseBranch": "main",
   "updateInternalDependencies": "patch",
-  "ignore": ["@mg-design/business"]
+  "ignore": ["@metagravity_cn/business"]
 }

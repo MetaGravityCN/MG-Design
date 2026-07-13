@@ -41,7 +41,7 @@
 </template>
 <script setup lang="ts">
 import { nextTick, onBeforeUnmount, onMounted, ref } from 'vue'
-import { useStableId } from '@mg-design/primitives'
+import { useStableId } from '@metagravity_cn/primitives'
 const props = withDefaults(
   defineProps<{
     title?: string

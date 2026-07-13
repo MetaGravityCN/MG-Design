@@ -40,7 +40,7 @@ import {
   useStableId,
   type FloatingPlacement,
   type OverlayHandle,
-} from '@mg-design/primitives'
+} from '@metagravity_cn/primitives'
 import { mgDropdownKey } from './context'
 
 export type MgDropdownTrigger = 'hover' | 'click' | 'focus' | 'contextmenu'

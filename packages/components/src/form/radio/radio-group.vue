@@ -1,7 +1,7 @@
 <template><component :is="tag" v-bind="$attrs" class="mg-radio-group" role="radiogroup" :aria-label="label"><slot /></component></template>
 <script setup lang="ts">
 import { computed, inject, provide } from 'vue'
-import { formContextKey, formItemContextKey } from '@mg-design/primitives'
+import { formContextKey, formItemContextKey } from '@metagravity_cn/primitives'
 import { radioGroupKey, type SelectionValue } from '../selection-context'
 defineOptions({ name: 'MgRadioGroup', inheritAttrs: false })
 const props = withDefaults(defineProps<{ modelValue?: SelectionValue; size?: 'large' | 'default' | 'small'; disabled?: boolean; label?: string; name?: string; tag?: string; validateEvent?: boolean }>(), { size: 'default', tag: 'div', validateEvent: true })

@@ -1,4 +1,4 @@
-import type { FormItemContext, FormItemProp } from '@mg-design/primitives'
+import type { FormItemContext, FormItemProp } from '@metagravity_cn/primitives'
 
 export interface FormRule {
   required?: boolean

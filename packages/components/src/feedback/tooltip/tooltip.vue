@@ -40,7 +40,7 @@ import {
   useStableId,
   type FloatingPlacement,
   type OverlayHandle,
-} from '@mg-design/primitives'
+} from '@metagravity_cn/primitives'
 
 export type MgTooltipTrigger = 'hover' | 'click' | 'focus' | 'contextmenu'
 defineOptions({ name: 'MgTooltip', inheritAttrs: false })

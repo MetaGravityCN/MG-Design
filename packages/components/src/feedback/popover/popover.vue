@@ -43,7 +43,7 @@ import {
   useStableId,
   type FloatingPlacement,
   type OverlayHandle,
-} from '@mg-design/primitives'
+} from '@metagravity_cn/primitives'
 
 export type MgPopoverTrigger = 'hover' | 'click' | 'focus' | 'contextmenu'
 defineOptions({ name: 'MgPopover', inheritAttrs: false })

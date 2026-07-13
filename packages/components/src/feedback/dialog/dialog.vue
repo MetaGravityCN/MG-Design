@@ -33,7 +33,7 @@
 
 <script setup lang="ts">
 import { computed, nextTick, onBeforeUnmount, ref, watch } from 'vue'
-import { lockDocumentScroll, overlayManager, useFocusTrap, useStableId, type OverlayHandle } from '@mg-design/primitives'
+import { lockDocumentScroll, overlayManager, useFocusTrap, useStableId, type OverlayHandle } from '@metagravity_cn/primitives'
 
 export type MgDialogBeforeClose = (done: () => void) => void | boolean | Promise<void | boolean>
 defineOptions({ name: 'MgDialog', inheritAttrs: false })

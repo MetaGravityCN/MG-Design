@@ -18,7 +18,7 @@ export function MgResolver(_options: MgResolverOptions = {}) {
     type: 'component' as const,
     resolve(name: string): MgComponentResolveResult | undefined {
       if (!/^Mg[A-Z][A-Za-z0-9]*$/.test(name)) return undefined
-      return { name, from: '@mg-design/components' }
+      return { name, from: '@metagravity_cn/mg-design' }
     },
   }
 }

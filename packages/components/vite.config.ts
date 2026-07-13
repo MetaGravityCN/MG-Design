@@ -22,12 +22,12 @@ export default defineConfig({
       fileName: (format, entryName) => `${entryName}.${format === 'es' ? 'mjs' : 'cjs'}`,
     },
     rollupOptions: {
-      external: ['vue', '@mg-design/theme', '@mg-design/icons', '@mg-design/utils', '@mg-design/primitives'],
+      external: ['vue', '@metagravity_cn/theme', '@metagravity_cn/icons', '@metagravity_cn/utils', '@metagravity_cn/primitives'],
       output: {
         exports: 'named',
         globals: {
           vue: 'Vue',
-          '@mg-design/primitives': 'MgDesignPrimitives',
+          '@metagravity_cn/primitives': 'MgDesignPrimitives',
         },
       },
     },

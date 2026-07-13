@@ -51,7 +51,7 @@
 </template>
 <script setup lang="ts">
 import { computed, inject, ref } from 'vue'
-import { formContextKey, formItemContextKey } from '@mg-design/primitives'
+import { formContextKey, formItemContextKey } from '@metagravity_cn/primitives'
 type DateValue = string | number | Date
 type PickerValue = DateValue | DateValue[] | undefined
 defineOptions({ name: 'MgDatePicker', inheritAttrs: false })

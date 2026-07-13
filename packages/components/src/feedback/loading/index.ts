@@ -1,5 +1,5 @@
 import type { App, Directive, ObjectDirective } from 'vue'
-import { lockDocumentScroll, overlayManager, type OverlayHandle } from '@mg-design/primitives'
+import { lockDocumentScroll, overlayManager, type OverlayHandle } from '@metagravity_cn/primitives'
 import Loading from './loading.vue'
 import { createLoadingMask, type MgLoadingMaskOptions } from './loading-mask'
 import './loading.css'

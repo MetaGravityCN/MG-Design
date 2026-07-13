@@ -13,7 +13,7 @@
 </template>
 <script setup lang="ts">
 import { computed, inject } from 'vue'
-import { formContextKey } from '@mg-design/primitives'
+import { formContextKey } from '@metagravity_cn/primitives'
 import { checkboxGroupKey, type SelectionValue } from '../selection-context'
 defineOptions({ name: 'MgCheckboxButton' })
 const props = withDefaults(

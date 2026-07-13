@@ -16,7 +16,7 @@ import {
   formContextKey,
   type FormItemProp,
   type FormItemContext,
-} from '@mg-design/primitives'
+} from '@metagravity_cn/primitives'
 import type { FormRules } from '../types'
 
 defineOptions({ name: 'MgForm', inheritAttrs: false })

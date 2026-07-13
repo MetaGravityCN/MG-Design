@@ -45,7 +45,7 @@
 </template>
 <script setup lang="ts">
 import { computed, inject, type CSSProperties } from 'vue'
-import { formContextKey, formItemContextKey } from '@mg-design/primitives'
+import { formContextKey, formItemContextKey } from '@metagravity_cn/primitives'
 defineOptions({ name: 'MgSlider', inheritAttrs: false })
 const props = withDefaults(
   defineProps<{

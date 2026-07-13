@@ -6,7 +6,7 @@
 </template>
 <script setup lang="ts">
 import { computed, inject, onBeforeUnmount, onMounted, ref } from 'vue'
-import { formContextKey, formItemContextKey, useStableId } from '@mg-design/primitives'
+import { formContextKey, formItemContextKey, useStableId } from '@metagravity_cn/primitives'
 export type AutocompleteItem = Record<string, unknown>
 defineOptions({ name: 'MgAutocomplete', inheritAttrs: false })
 const props = withDefaults(defineProps<{ modelValue?: string; fetchSuggestions?: (query: string, callback: (items: AutocompleteItem[]) => void) => void | AutocompleteItem[] | Promise<AutocompleteItem[]>; placeholder?: string; disabled?: boolean; clearable?: boolean; triggerOnFocus?: boolean; debounce?: number; valueKey?: string; name?: string; selectWhenUnmatched?: boolean; hideLoading?: boolean; validateEvent?: boolean }>(), { modelValue: '', triggerOnFocus: true, debounce: 300, valueKey: 'value', validateEvent: true })

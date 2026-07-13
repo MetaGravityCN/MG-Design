@@ -12,7 +12,7 @@
 </template>
 <script setup lang="ts">
 import { computed, inject, onBeforeUnmount, onMounted, provide, ref } from 'vue'
-import { formContextKey, formItemContextKey, useStableId } from '@mg-design/primitives'
+import { formContextKey, formItemContextKey, useStableId } from '@metagravity_cn/primitives'
 import { selectContextKey, type SelectOptionRecord } from '../select-context'
 import type { SelectionValue } from '../selection-context'
 defineOptions({ name: 'MgSelect', inheritAttrs: false })

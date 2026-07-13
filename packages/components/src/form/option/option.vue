@@ -15,7 +15,7 @@
 </template>
 <script setup lang="ts">
 import { computed, inject, onBeforeUnmount, onMounted, reactive } from 'vue'
-import { useStableId } from '@mg-design/primitives'
+import { useStableId } from '@metagravity_cn/primitives'
 import { selectContextKey } from '../select-context'
 import type { SelectionValue } from '../selection-context'
 defineOptions({ name: 'MgOption', inheritAttrs: false })

@@ -19,7 +19,8 @@
     "declarationDir": "./dist",
     "baseUrl": ".",
     "paths": {
-      "@mg-design/*": ["packages/*/src"]
+      "@metagravity_cn/mg-design": ["packages/components/src/index.ts"],
+      "@metagravity_cn/*": ["packages/*/src"]
     }
   },
   "include": ["packages/*/src/**/*.ts", "packages/*/src/**/*.vue"],

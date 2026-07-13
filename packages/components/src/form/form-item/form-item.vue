@@ -16,7 +16,7 @@
 
 <script setup lang="ts">
 import { computed, inject, nextTick, onBeforeUnmount, onMounted, provide, ref, type CSSProperties } from 'vue'
-import { formContextKey, formItemContextKey, getValueAtPath, setValueAtPath, useStableId, type FormValidateState, type FormValidateTrigger } from '@mg-design/primitives'
+import { formContextKey, formItemContextKey, getValueAtPath, setValueAtPath, useStableId, type FormValidateState, type FormValidateTrigger } from '@metagravity_cn/primitives'
 import type { FormRule } from '../types'
 
 defineOptions({ name: 'MgFormItem' })

@@ -1,14 +1,14 @@
-# @mg-design/icons
+# @metagravity_cn/icons
 
 Vue 3 icon components for MG Design.
 
 ```bash
-pnpm add vue @mg-design/icons
+pnpm add vue @metagravity_cn/icons
 ```
 
 ```vue
 <script setup lang="ts">
-import { House, Search } from '@mg-design/icons'
+import { House, Search } from '@metagravity_cn/icons'
 </script>
 
 <template>

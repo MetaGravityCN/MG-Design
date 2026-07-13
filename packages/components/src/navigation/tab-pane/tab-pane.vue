@@ -1,7 +1,7 @@
 <template><span class="mg-tab-pane" aria-hidden="true" /></template>
 <script setup lang="ts">
 import { inject, onBeforeUnmount, onMounted, useSlots, watch } from 'vue'
-import { useStableId } from '@mg-design/primitives'
+import { useStableId } from '@metagravity_cn/primitives'
 import { tabsContextKey, type TabName, type TabPaneConfig } from '../tabs/context'
 defineOptions({ name: 'MgTabPane' })
 const props = defineProps<{ label?: string; name: TabName; disabled?: boolean; closable?: boolean; lazy?: boolean }>()

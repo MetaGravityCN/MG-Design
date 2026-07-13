@@ -30,7 +30,7 @@
 </template>
 <script setup lang="ts">
 import { computed, inject } from 'vue'
-import { useStableId } from '@mg-design/primitives'
+import { useStableId } from '@metagravity_cn/primitives'
 import { collapseContextKey, type CollapseName } from '../collapse/context'
 defineOptions({ name: 'MgCollapseItem', inheritAttrs: false })
 const props = defineProps<{ name: CollapseName; title?: string; disabled?: boolean }>()

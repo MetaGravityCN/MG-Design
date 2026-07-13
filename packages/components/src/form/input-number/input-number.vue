@@ -32,7 +32,7 @@
 
 <script setup lang="ts">
 import { computed, inject, ref, watch } from 'vue'
-import { formContextKey, formItemContextKey } from '@mg-design/primitives'
+import { formContextKey, formItemContextKey } from '@metagravity_cn/primitives'
 
 defineOptions({ name: 'MgInputNumber', inheritAttrs: false })
 

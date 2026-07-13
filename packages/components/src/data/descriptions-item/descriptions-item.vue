@@ -4,7 +4,7 @@
 
 <script setup lang="ts">
 import { inject, onBeforeUnmount, onMounted, useSlots, watch } from 'vue'
-import { useStableId } from '@mg-design/primitives'
+import { useStableId } from '@metagravity_cn/primitives'
 import { descriptionsContextKey, type DescriptionItemConfig } from '../descriptions/context'
 
 defineOptions({ name: 'MgDescriptionsItem' })

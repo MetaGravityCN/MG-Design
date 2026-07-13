@@ -17,7 +17,7 @@
 </template>
 <script setup lang="ts">
 import { computed, inject, ref } from 'vue'
-import { formContextKey, formItemContextKey } from '@mg-design/primitives'
+import { formContextKey, formItemContextKey } from '@metagravity_cn/primitives'
 import { radioGroupKey, type SelectionValue } from '../selection-context'
 defineOptions({ name: 'MgRadio', inheritAttrs: false })
 const props = withDefaults(

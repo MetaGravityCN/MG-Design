@@ -83,7 +83,7 @@ importers:
 
   packages/components:
     dependencies:
-      '@mg-design/primitives':
+      '@metagravity_cn/primitives':
         specifier: workspace:*
         version: link:../primitives
       vue:

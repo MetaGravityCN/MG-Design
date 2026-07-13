@@ -10,11 +10,11 @@ export default defineConfig({
   },
   resolve: {
     alias: {
-      '@mg-design/components': resolve(__dirname, 'packages/components/src/index.ts'),
-      '@mg-design/icons': resolve(__dirname, 'packages/icons/src/index.ts'),
-      '@mg-design/utils': resolve(__dirname, 'packages/utils/src/index.ts'),
-      '@mg-design/primitives': resolve(__dirname, 'packages/primitives/src/index.ts'),
-      '@mg-design/theme': resolve(__dirname, 'packages/theme/src/index.css'),
+      '@metagravity_cn/mg-design': resolve(__dirname, 'packages/components/src/index.ts'),
+      '@metagravity_cn/icons': resolve(__dirname, 'packages/icons/src/index.ts'),
+      '@metagravity_cn/utils': resolve(__dirname, 'packages/utils/src/index.ts'),
+      '@metagravity_cn/primitives': resolve(__dirname, 'packages/primitives/src/index.ts'),
+      '@metagravity_cn/theme': resolve(__dirname, 'packages/theme/src/index.css'),
     },
   },
 })

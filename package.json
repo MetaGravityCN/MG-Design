@@ -2,7 +2,7 @@
   "name": "mg-design",
   "version": "0.0.1",
   "private": true,
-  "description": "MG Design System - An independent Vue 3 component library",
+  "description": "MG Design System - An independent Vue 3 component library published under @metagravity_cn",
   "license": "MIT",
   "repository": {
     "type": "git",

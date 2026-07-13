@@ -32,7 +32,7 @@
 </template>
 <script setup lang="ts">
 import { computed, inject, ref, type CSSProperties } from 'vue'
-import { formContextKey, formItemContextKey } from '@mg-design/primitives'
+import { formContextKey, formItemContextKey } from '@metagravity_cn/primitives'
 type SwitchValue = boolean | string | number
 defineOptions({ name: 'MgSwitch', inheritAttrs: false })
 const props = withDefaults(

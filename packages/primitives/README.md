@@ -1,9 +1,9 @@
-# @mg-design/primitives
+# @metagravity_cn/primitives
 
 Accessible interaction and overlay primitives used by MG Design components.
 
 ```bash
-pnpm add vue @mg-design/primitives
+pnpm add vue @metagravity_cn/primitives
 ```
 
 This package is primarily intended for MG Design packages and advanced component authors.

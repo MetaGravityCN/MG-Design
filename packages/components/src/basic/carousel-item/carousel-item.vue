@@ -1,7 +1,7 @@
 <template><span class="mg-carousel-item" aria-hidden="true" /></template>
 <script setup lang="ts">
 import { inject, onBeforeUnmount, onMounted, watch, type Slot } from 'vue'
-import { useStableId } from '@mg-design/primitives'
+import { useStableId } from '@metagravity_cn/primitives'
 import { carouselContextKey, type CarouselItemConfig } from '../carousel/context'
 defineOptions({ name: 'MgCarouselItem' })
 const props = defineProps<{ name?: string | number; label?: string }>()

@@ -23,7 +23,7 @@
 
 <script setup lang="ts">
 import { computed, inject, ref } from 'vue'
-import { formContextKey, formItemContextKey } from '@mg-design/primitives'
+import { formContextKey, formItemContextKey } from '@metagravity_cn/primitives'
 import { checkboxGroupKey, type SelectionValue } from '../selection-context'
 
 defineOptions({ name: 'MgCheckbox', inheritAttrs: false })
