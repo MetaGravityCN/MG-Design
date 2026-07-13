@@ -2,6 +2,23 @@
   "name": "@mg-design/primitives",
   "version": "0.0.1",
   "description": "Framework-independent interaction primitives for MG Design",
+  "author": "MG Design",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MetaGravityCN/MG-Design.git",
+    "directory": "packages/primitives"
+  },
+  "homepage": "https://github.com/MetaGravityCN/MG-Design/tree/main/packages/primitives#readme",
+  "bugs": {
+    "url": "https://github.com/MetaGravityCN/MG-Design/issues"
+  },
+  "keywords": [
+    "mg-design",
+    "vue3",
+    "primitives",
+    "accessibility"
+  ],
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
@@ -12,7 +29,16 @@
       "require": "./dist/index.cjs"
     }
   },
-  "files": ["dist"],
-  "scripts": { "build": "vite build" },
-  "peerDependencies": { "vue": "^3.5.0" }
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "vite build"
+  },
+  "peerDependencies": {
+    "vue": "^3.5.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
 }

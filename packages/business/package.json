@@ -1,6 +1,7 @@
 {
   "name": "@mg-design/business",
   "version": "0.0.1",
+  "private": true,
   "description": "MG Design System - Business Components",
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
@@ -16,7 +17,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "vite build && vue-tsc --emitDeclarationOnly"
+    "build": "vite build && vue-tsc --noEmit -p ../../tsconfig.json"
   },
   "peerDependencies": {
     "vue": "^3.5.0"

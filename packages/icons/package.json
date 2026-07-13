@@ -6,12 +6,13 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mg-design/mg-design.git",
+    "url": "https://github.com/MetaGravityCN/MG-Design.git",
     "directory": "packages/icons"
   },
   "bugs": {
-    "url": "https://github.com/mg-design/mg-design/issues"
+    "url": "https://github.com/MetaGravityCN/MG-Design/issues"
   },
+  "homepage": "https://github.com/MetaGravityCN/MG-Design/tree/main/packages/icons#readme",
   "keywords": [
     "mg-design",
     "icons",

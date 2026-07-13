@@ -6,12 +6,13 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mg-design/mg-design.git",
+    "url": "https://github.com/MetaGravityCN/MG-Design.git",
     "directory": "packages/components"
   },
   "bugs": {
-    "url": "https://github.com/mg-design/mg-design/issues"
+    "url": "https://github.com/MetaGravityCN/MG-Design/issues"
   },
+  "homepage": "https://github.com/MetaGravityCN/MG-Design/tree/main/packages/components#readme",
   "keywords": [
     "mg-design",
     "vue3",
@@ -38,8 +39,12 @@
   "files": [
     "dist"
   ],
+  "sideEffects": [
+    "*.css",
+    "**/*.css"
+  ],
   "scripts": {
-    "build": "vite build && vue-tsc --emitDeclarationOnly"
+    "build": "vite build && vue-tsc --noEmit -p ../../tsconfig.json"
   },
   "peerDependencies": {
     "vue": "^3.5.0"
